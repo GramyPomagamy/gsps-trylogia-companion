@@ -17,11 +17,21 @@ io.on('connection', (socket) => {
     socket.emit('completion', sendCompletion());
 
     fs.watch(config.nowPlayingFile, () => {
-        socket.emit('song', sendSong());
-    });
+        try {
+            socket.emit('song', sendSong());
+        }
+        catch (err) {
+            console.log(err);
+        }
+    });       
 
     fs.watch(config.completionFile, () => {
-        socket.emit('completion', sendCompletion());
+        try {
+            socket.emit('completion', sendCompletion());
+        }
+        catch (err) {
+            console.log(err);
+        }
     });
 });
   
