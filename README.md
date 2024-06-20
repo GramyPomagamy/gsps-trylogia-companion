@@ -1,5 +1,7 @@
 # gsps-trylogia-companion
 
+*Tested on Node.js 18 LTS.*
+
 A simple companion app to be used with the [main graphics bundle](https://github.com/GramyPomagamy/gsps-trylogia).
 
 ## Setup
