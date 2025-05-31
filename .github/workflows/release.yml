@@ -32,6 +32,4 @@ jobs:
                 generate_release_notes: true
                 draft: false
                 prerelease: false
-                tag_name: release-${{ github.sha }}
-                release_name: Release ${{ github.sha }}
                 files: ${{ github.event.repository.name }}.zip
