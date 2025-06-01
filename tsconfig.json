@@ -1,0 +1,17 @@
+{
+    "extends": "@tsconfig/node22/tsconfig.json",
+    "compilerOptions": {
+        "module": "NodeNext",
+        "target": "ES2022",
+        "preserveConstEnums": true,
+        "outDir": "./",
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

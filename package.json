@@ -5,7 +5,18 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
   "dependencies": {
-    "socket.io": "^4.1.2"
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@gramypomagamy/eslint-config": "^1.2.0",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/bun": "^1.2.15",
+    "@types/node": "^22.15.25",
+    "typescript": "^5.8.3"
   }
 }
