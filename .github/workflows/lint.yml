@@ -1,8 +1,5 @@
 name: Code linting check
 
-permissions:
-  contents: read
-
 on: [pull_request]
 
 jobs:
