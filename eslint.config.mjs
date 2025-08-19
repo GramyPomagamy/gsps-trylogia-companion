@@ -1,3 +1,3 @@
-import config from '@gramypomagamy/eslint-config';
+import { baseConfig } from '@gramypomagamy/eslint-config';
 
-export default config;
+export default baseConfig;
